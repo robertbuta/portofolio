@@ -1,0 +1,121 @@
+.frontend {
+    background-color: var(--color-bg-v);
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.frontend:hover {
+    background-color: transparent;
+    border-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.limbaje {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 2rem;
+    column-gap: 30%;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: var(--color-light)
+}
+
+.detalii {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project_image {
+    width: 70%;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.project_item {
+    background-color: var(--color-bg-v);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.project_item h3 {
+    margin: 1.2 0 2rem;
+}
+
+.proj_link {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .frontend {
+        width: 80%;
+    }
+    .limbaje {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 1rem;
+        row-gap: 20%;
+        column-gap: 40%;
+    }
+    .projects_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .project_image {
+        margin-top: 0.6rem;
+    }
+    #experience {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .limbaje {
+        grid-template-columns: 0.5fr 0.5fr;
+        margin-left: 0px;
+        row-gap: 20%;
+        column-gap: 40%;
+    }
+    h4 {
+        font-size: 0.9rem;
+    }
+    .projects_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .project_image {
+        width: 80%;
+        margin-top: 2rem;
+    }
+    #experience {
+        height: 240vh;
+    }
+}

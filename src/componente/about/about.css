@@ -1,0 +1,108 @@
+            .about_container {
+                display: grid;
+                grid-template-columns: 30% 50%;
+                gap: 10%;
+                height: 45vh;
+            }
+            
+            .about_me {
+                width: 100%;
+                aspect-ratio: 1/1;
+                border-radius: 2rem;
+                background: linear-gradient( 45deg, transparent, var(--color-primary), transparent);
+                display: grid;
+                place-items: center;
+            }
+            
+            .about_me_image {
+                border-radius: 2rem;
+                transform: rotate(10deg);
+                overflow: hidden;
+            }
+            
+            .about_me_image:hover {
+                transform: rotate(0deg);
+                transition: var(--transition);
+            }
+            
+            .about_cards {
+                display: flex;
+                flex-flow: wrap;
+                flex-direction: row;
+                gap: 1rem;
+            }
+            
+            .card {
+                background: var(--color-bg-v);
+                border: 1px solid transparent;
+                border-radius: 1rem;
+                padding: 2rem;
+                margin-left: 0;
+                color: var(--color-light);
+                text-align: center;
+                width: 45%;
+            }
+            
+            .card:hover {
+                background-color: transparent;
+                border-color: var(--color-primary);
+                transition: var(--transition);
+            }
+            
+            .icon {
+                font-size: 1.4rem;
+                margin-bottom: 10px
+            }
+            
+            .text {
+                display: block;
+                width: 92%;
+                padding: 1.5rem;
+                border-radius: 1rem;
+                background-color: var(--color-bg-v);
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+            
+            .text:hover {
+                background-color: transparent;
+                border-color: var(--color-primary);
+                transition: var(--transition);
+            }
+            
+            @media screen and (max-width:1024px) {
+                .about_container {
+                    display: block;
+                    grid-template-columns: 1fr;
+                    gap: 0;
+                }
+                .about_me {
+                    width: 70%;
+                    margin: 1rem auto 4rem;
+                }
+                .about_cards {
+                    margin-left: 3rem;
+                }
+                #about {
+                    height: 90vh;
+                }
+            }
+            
+            @media screen and (max-width:600px) {
+                .about_container {
+                    display: block;
+                    grid-template-columns: 1fr;
+                    gap: 0;
+                    margin: 0 auto;
+                }
+                .about_me {
+                    width: 75%;
+                    margin: 1rem auto 4rem;
+                }
+                .about_cards {
+                    margin-left: 1rem;
+                }
+                #about {
+                    height: 30vh;
+                }
+            }
