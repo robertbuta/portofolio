@@ -59,9 +59,6 @@ textarea {
     section {
         margin-top: 6rem;
     }
-    #contact {
-        height: 120vh;
-    }
 }
 
 @media screen and (max-width:600px) {
@@ -72,8 +69,5 @@ textarea {
     }
     section>h2 {
         margin-bottom: 2rem;
-    }
-    #contact {
-        height: 120vh;
     }
 }

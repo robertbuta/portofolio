@@ -1,7 +1,6 @@
 nav {
     background-color: rgba(0, 0, 0, 0.3);
     width: max-content;
-    display: block;
     padding: 1.5rem 4rem;
     z-index: 2;
     position: fixed;
@@ -10,7 +9,7 @@ nav {
     bottom: 2rem;
     display: flex;
     gap: 3rem;
-    border-radius: 5rem;
+    border-radius: 6rem;
     backdrop-filter: blur(200px);
 }
 

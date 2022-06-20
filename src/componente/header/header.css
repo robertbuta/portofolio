@@ -1,5 +1,4 @@
     header {
-        height: auto;
         padding-top: 7rem;
     }
     
@@ -73,16 +72,7 @@
         font-weight: 300;
     }
     
-    @media screen and (max-width:1024px) {
-        header {
-            height: 25vh;
-        }
-    }
-    
     @media screen and (max-width:600px) {
-        header {
-            height: 30vh;
-        }
         .header_socials,
         .scroll_down {
             display: none;

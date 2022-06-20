@@ -34,6 +34,8 @@ body {
     background-color: var(--color-bg);
     color: var(--color-white);
     /*background-image: url(../src//assets/textura.png);*/
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -117,9 +119,16 @@ img {
 @media screen and (max-width:1024px) {
     .container {
         width: var(--container-width-md);
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
     }
     section {
         margin-top: 6rem;
+        flex-wrap: wrap;
+        height: 100%;
     }
 }
 
