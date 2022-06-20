@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.8f2a612c.css",
+    "main.css": "/portofolio/static/css/main.8c930e43.css",
     "main.js": "/portofolio/static/js/main.707b4eac.js",
     "static/media/eu.jpg": "/portofolio/static/media/eu.ce5376cca399bc740406.jpg",
     "static/media/Robert_Buta_CV.pdf": "/portofolio/static/media/Robert_Buta_CV.d9a2dd546317a4ceba95.pdf",
     "static/media/drink.jpg": "/portofolio/static/media/drink.f55e1a2a7ad6503be51c.jpg",
     "index.html": "/portofolio/index.html",
-    "main.8f2a612c.css.map": "/portofolio/static/css/main.8f2a612c.css.map",
+    "main.8c930e43.css.map": "/portofolio/static/css/main.8c930e43.css.map",
     "main.707b4eac.js.map": "/portofolio/static/js/main.707b4eac.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2a612c.css",
+    "static/css/main.8c930e43.css",
     "static/js/main.707b4eac.js"
   ]
 }
