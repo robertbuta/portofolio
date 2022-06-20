@@ -58,8 +58,9 @@ const Contact = () => {
     </form>
 
    
-   </div>
+   </div> <div id='space'></div>
    </section>
+  
   )
 }
 

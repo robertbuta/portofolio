@@ -73,10 +73,7 @@ textarea {
     section>h2 {
         margin-bottom: 2rem;
     }
-}
-
-@media screen and (max-width:400px) {
-    #about {
-        height: 270vh;
+    #contact {
+        height: 120vh;
     }
 }
