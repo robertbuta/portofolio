@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portofoliu/static/css/main.751631de.css",
+    "main.js": "/portofoliu/static/js/main.1a7fac81.js",
+    "static/media/eu.jpg": "/portofoliu/static/media/eu.ce5376cca399bc740406.jpg",
+    "static/media/Robert_Buta_CV.pdf": "/portofoliu/static/media/Robert_Buta_CV.d9a2dd546317a4ceba95.pdf",
+    "static/media/drink.jpg": "/portofoliu/static/media/drink.f55e1a2a7ad6503be51c.jpg",
+    "index.html": "/portofoliu/index.html",
+    "main.751631de.css.map": "/portofoliu/static/css/main.751631de.css.map",
+    "main.1a7fac81.js.map": "/portofoliu/static/js/main.1a7fac81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.751631de.css",
+    "static/js/main.1a7fac81.js"
+  ]
+}
